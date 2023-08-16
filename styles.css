@@ -1,0 +1,34 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: lightskyblue;
+}
+div {
+    font-size: 24px;
+    border: 2px black solid;
+    border-radius: 58px;
+    background: #e0e0e0;
+    box-shadow:  38px 38px 75px #777777,
+             -38px -38px 75px #ffffff;
+    padding: 15px;;
+    margin-top: 40px;
+}
+.keyless {
+    width: 20%;
+    height: 20%;
+}
+h1 {
+    font-size: 36px;
+    background: linear-gradient(45deg, #FF0000, #FFA500, #FFFF00, #008000, #0000FF, #4B0082, #8B00FF);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    animation: rainbow 3s linear infinite;
+}
+
+
+
